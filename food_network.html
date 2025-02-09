@@ -4,35 +4,201 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Network</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
+    <!-- <link rel="stylesheet" href="style.css"> -->
+     <style>
+        body { font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    }
+
+    .top-bar a { 
+        text-decoration: none;
+        padding: 5px;
+        align-items: center;
+        color: #000000;
+        
+
+    }  
+    #gr {
+        background: linear-gradient(90deg, rgb(0, 170, 60) 0%, rgb(255, 5, 5) 0%, rgb(255, 153, 0) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 0 2px 30px 1px rgba(0, 0, 0, 0.5);
+    }  
+    .links a:hover {
+        color: #958f8f;
+
+    }
+    .top-bar{
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.5);
+       
+    
         }
-        .top-bar {
-            background-color: #333;
-            overflow: hidden;
-        }
-        .top-bar a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-        }
-        .top-bar a:hover {
-            background-color: #ddd;
-            color: black;
-        }
+    .links {
+        width: 40%;
+        /* padding-right: 10px; */
+        margin-top: 10px;
+        
+        margin-bottom: 5px;
+        align-items: center;
+        font-size: 150%;
+        
+    }
+     .logo {
+        width:60%;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        font-size: 300%;
+        font-weight: bold;
+        text-decoration-color: #ff0000;
+        
+     }
+     .nqq {
+        display:flex;
+        justify-content: space-evenly;
+        max-width: 90%;
+        padding-top: 10px;
+        margin-top:10px;
+        margin-inline: auto;
+    
+
+    }
+    .home {
+       
+        justify-content: baseline;
+        padding-top: 10px;
+        margin-top:10px;
+        margin-inline: auto;
+        width: 60%;
+        color: rgb(254, 0, 0);
+
+    }
+    .img1 {
+       align-content: center;
+        padding-top: 10px;
+        margin-top:10px;
+        margin-inline: auto;
+        width: 30%;
+        background-color: rgb(210, 30, 99);
+        color: rgb(0, 255, 4);
+    }
+    #img1 {
+        width: 100%;
+        border-radius: 20px;
+    }
+    .abt {
+        display:flex;
+        justify-content: baseline;
+        padding-top: 10px;
+        margin-top:10px;
+        margin-inline: auto;
+        width: 90%;
+        background-color: chocolate;
+        color: rgb(0, 255, 4);
+
+    }
+    .rec img {
+        width: 100%;
+        border-radius: 20px;
+        /* box-shadow: 0 01px 02px 1px rgba(1, 10, 0, 0.5);  */
+    }
+
+    .rec {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        margin-top:10px;
+        margin-inline: auto;
+        width: 90%;
+        color: rgb(0, 255, 4);
+
+    }
+    .rec1 {
+        width: 30%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        color: rgb(31, 31, 31);
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.5);
+    }
+
+
     </style>
 </head>
 <body>
     <div class="top-bar">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+        <section class="logo"> <a href="#home"><span id="gr">Food</span> Network</a> 
+        </section>
+
+        <section class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#recipies">Services</a>
+            <a href="#contact">Contact</a>
+        </section>
+    </div>
+    <div class ="nqq">
+        <div class="home" id="home">
+            <h1>Food Network is a platform that connects food lovers with food vendors.</h1> We provide a platform for food vendors to showcase their products and services to a wider audience. We also provide a platform for food lovers to discover new food vendors and order food .
+        </div>
+        <div class="img1"> 
+            <img src="https://www.visitchiba.jp/wp-content/uploads/2022/10/2-1-scaled.jpg.webp" alt="food" id ="img1"> 
+            <br>img will add here 
+
+        </div>
+    </div>
+    <div class ="abt">
+        <section class="about" id="about">
+            <p><h1>About Us</h1> We provide a platform for food vendors to showcase their products and services to a wider audience. We also provide a platform for food lovers to discover new food vendors and order food.
+
+            </p>
+        </section>
+        <section class="img1"> 
+            img will add here 
+
+        </section>
+    </div>
+    <div class ="3_rows">
+        <main>
+            <h1>Our Recipies</h1>
+            Hello. We are Food Network. We inspire not to diet but eat healthy food. We will ensure our food quality and your good health. Stay with us. 
+        </main>
+        <section class="rec" id="recipies">
+
+           <div class="rec1">
+                <img src="https://www.visitchiba.jp/wp-content/uploads/2022/10/2-1-scaled.jpg.webp">
+               <h2>Recipie 1</h2>
+               <p>Ingredients: 1. 2 cups of rice 2. 1 cup of beans </p>
+            </div>
+
+            <div class="rec1">
+                <img src="https://www.visitchiba.jp/wp-content/uploads/2022/10/2-1-scaled.jpg.webp">
+               <h2>Recipie 1</h2>
+               <p>Ingredients: 1. 2 cups of rice 2. 1 cup of beans </p>
+            </div>
+
+            <div class="rec1">
+                <img src="https://www.visitchiba.jp/wp-content/uploads/2022/10/2-1-scaled.jpg.webp">
+               <h2>Recipie 1</h2>
+               <p>Ingredients: 1. 2 cups of rice 2. 1 cup of beans </p>
+            </div>
+
+
+        </section>
+        <section class="img1"> 
+            img will add here 
+
+        </section>
     </div>
 </body>
 </html>
