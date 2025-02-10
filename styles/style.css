@@ -3,10 +3,15 @@
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+body {
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    max-width: 1200px;
+}
 .header{
     background-color: #ffffff;
     padding: 10px;
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1); */
     align-content: center;
 }
 .top-bar a{
@@ -55,8 +60,8 @@
 .nqq{ 
     display: flex;
     justify-content: space-between;
-    background-color: #ffffff;
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    /* background-color: #ffffff; */
+    /* box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1); */
     border-radius: 10px;
     margin: 10px auto;
     align-items: center;
@@ -67,6 +72,7 @@
     margin-right: 10px;
     width: 60%;
     font-size: 190%;
+    
 }
 #img1 {
 
@@ -78,8 +84,8 @@
 .abt{ 
     display: flex;
     justify-content: space-between;
-    background-color: #ffffff;
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    /* background-color: #ffffff; */
+    /* box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1); */
     border-radius: 10px;
     margin: 10px auto;
     align-items: center;
@@ -100,22 +106,77 @@
 .rec {
     display: flex;
     justify-content: space-between;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     margin: 10px auto;
-    width: 70%;
+    width: 100%;
 }
 .rec>div{
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
-    padding: 10px 10px 10px 50px;
     align-items: center;
-    
+    padding: 10px;
     width: 60%;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    
 
 }
 .rec>div>img{
-    width: 70%;
+    width: 90%;
+    height: 60%;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.sign {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to left, red, orange);
+    height: auto;
+    align-items: center;
+}
+
+.sign>div>from {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 25px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 10px 10px 110px;
+    border-radius: 20px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    outline: none;
+}
+.submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width:50%;
+    background-image: linear-gradient(to left, red, orange);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    outline: none;
+}
+
+#img4 { 
+    width: 250px;
+    height:150px;
     border-radius: 10px;
     margin: 20px;
 }
