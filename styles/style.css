@@ -102,7 +102,7 @@
     justify-content: space-between;
     background-color: #ffffff;
     margin: 10px auto;
-    align-items: center;
+    width: 70%;
 }
 .rec>div{
     display: flex;
@@ -110,6 +110,8 @@
     flex-direction: column;
     padding: 10px 10px 10px 50px;
     align-items: center;
+    
+    width: 60%;
 
 }
 .rec>div>img{
