@@ -6,13 +6,14 @@
 body {
     background-color: #f4f4f4;
     margin: 0 auto;
-    max-width: 1200px;
+    /* max-width: 1200px; */
 }
 .header{
     background-color: #ffffff;
     padding: 10px;
-    /* box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
     align-content: center;
+    margin: 0;
 }
 .top-bar a{
     text-decoration: none;
@@ -65,14 +66,34 @@ body {
     border-radius: 10px;
     margin: 10px auto;
     align-items: center;
+    max-width: 1200px;
 
 }
 .home{ 
     padding: 10px 10px 10px 50px;
     margin-right: 10px;
-    width: 60%;
-    font-size: 190%;
+    width: 70%;
+    font-size: 170%;
     
+}
+.sha{
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.589);
+}
+.submit-but{
+    padding: 10px;
+    width:40%;
+    background-image: linear-gradient(to left, red, orange);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(220, 152, 5, 0.6);
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.submit-but:hover{
+    background-image: linear-gradient(to right, red, orange);
+    font-weight: bold;
+    border-radius: 25px;
 }
 #img1 {
 
@@ -89,6 +110,7 @@ body {
     border-radius: 10px;
     margin: 10px auto;
     align-items: center;
+    max-width: 1200px;
 }
 .about{ 
     padding: 10px 10px 10px 50px;
@@ -97,11 +119,16 @@ body {
     font-size: 190%;
 }
 
+.rows{  
+    max-width: 1200px;
+    margin: 10px auto;
+}
 .rows>main{
     margin: 10px auto;;
     align-items: center;
     text-align: center;
     font-size: 190%;
+    
 }
 .rec {
     display: flex;
@@ -133,9 +160,12 @@ body {
 .sign {
     display: flex;
     justify-content: space-between;
-    background-image: linear-gradient(to left, red, orange);
+    background-image: url(../assets/rec3.jpg);
     height: auto;
     align-items: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 10px;
 }
 
 .sign>div>from {
@@ -143,6 +173,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10px;
+    margin-left: 50px;
     
 }
 .user {
@@ -160,12 +192,12 @@ body {
     outline: none;
 }
 .submit {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
     padding: 10px;
-    width:50%;
+    width:40%;
     background-image: linear-gradient(to left, red, orange);
     color: white;
     border-radius: 20px;
@@ -178,5 +210,26 @@ body {
     width: 250px;
     height:150px;
     border-radius: 10px;
-    margin: 20px;
+    margin-right: 70px;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 10px 10px 30px 10px;
+    box-shadow: 0 1px 10px rgba(253, 62, 62, 0.1);
+    align-content: center;
+    margin: 0;
+}
+.footer a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0 10px;
+}
+.tex{
+    font-weight: 1px;
+    color: beige;
 }
