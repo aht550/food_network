@@ -68,6 +68,7 @@ body {
     align-items: center;
     max-width: 1200px;
 
+
 }
 .home{ 
     padding: 10px 10px 10px 50px;
@@ -97,9 +98,9 @@ body {
 }
 #img1 {
 
-    height: 90%;
+    height: 500px;
     border-radius: 10px;
-    margin: 20px;  
+    margin: 10px 10px 10px 50px;  
 }
 
 .abt{ 
@@ -157,16 +158,18 @@ body {
     margin: 20px;
 }
 
+
 .sign {
     display: flex;
     justify-content: space-between;
-    background-image: url(../assets/rec3.jpg);
+    background-image: url(../assets/food_bg.jpg);
     height: auto;
     align-items: center;
     max-width: 1200px;
     margin: 50px auto;
     padding: 10px;
 }
+
 
 .sign>div>from {
     display: flex;
@@ -175,6 +178,7 @@ body {
     align-items: center;
     margin-top: 10px;
     margin-left: 50px;
+   
     
 }
 .user {
@@ -190,6 +194,7 @@ body {
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
     border: none;
     outline: none;
+    
 }
 .submit {
     /* display: flex;
@@ -204,6 +209,7 @@ body {
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
     border: none;
     outline: none;
+    
 }
 
 #img4 { 
@@ -211,6 +217,8 @@ body {
     height:150px;
     border-radius: 10px;
     margin-right: 70px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 
